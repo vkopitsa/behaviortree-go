@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"math/rand"
-	"behaviortree"
+	"time"
+
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // ExampleObject represents the context in which the behavior tree operates.
-type ExampleObject struct {}
+type ExampleObject struct{}
 
 // SuccessTask creates a task that always succeeds.
 // It prints a success message and signals the task's success.
@@ -47,17 +48,17 @@ func RandomTask(name string) *behaviortree.Task[*ExampleObject] {
 //
 // Behavior Tree Structure:
 //   - Root Priority Node
-//     - RandomTask("Priority 1")
-//     - InvertDecorator wrapping RandomTask("InvertDecorator 1")
-//     - Sequence Node
-//       - SuccessTask("Sequence 1")
-//       - SuccessTask("Sequence 2")
-//       - FailTask("Sequence 3")
-//       - SuccessTask("Sequence 4")
-//     - FailTask("Priority 2")
-//     - AlwaysFailDecorator wrapping RandomTask("AlwaysFailDecorator 1")
-//     - AlwaysSucceedDecorator wrapping RandomTask("AlwaysSucceedDecorator 1")
-//     - SuccessTask("Priority 3")
+//   - RandomTask("Priority 1")
+//   - InvertDecorator wrapping RandomTask("InvertDecorator 1")
+//   - Sequence Node
+//   - SuccessTask("Sequence 1")
+//   - SuccessTask("Sequence 2")
+//   - FailTask("Sequence 3")
+//   - SuccessTask("Sequence 4")
+//   - FailTask("Priority 2")
+//   - AlwaysFailDecorator wrapping RandomTask("AlwaysFailDecorator 1")
+//   - AlwaysSucceedDecorator wrapping RandomTask("AlwaysSucceedDecorator 1")
+//   - SuccessTask("Priority 3")
 func main() {
 	rand.Seed(time.Now().UnixNano()) // Initialize random seed
 

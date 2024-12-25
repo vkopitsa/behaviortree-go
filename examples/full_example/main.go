@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // SmartDog represents a dog with comprehensive behaviors.

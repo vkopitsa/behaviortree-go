@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // GuardDog represents a dog with guarding behaviors.

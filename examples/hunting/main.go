@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // HuntingDog represents a dog with hunting behaviors.

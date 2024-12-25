@@ -1,7 +1,7 @@
 package main
 
 import (
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 	"fmt"
 	"time"
 )

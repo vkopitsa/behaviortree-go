@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // ExampleObject represents the context in which the behavior tree operates.

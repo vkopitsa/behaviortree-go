@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"behaviortree"
+	"github.com/vkopitsa/behaviortree-go"
 )
 
 // RandomDog represents an entity with behaviors.
