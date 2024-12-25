@@ -2,7 +2,7 @@
 # BehaviorTree-Go
 
 [![GitHub Workflow Status](https://github.com/vkopitsa/behaviortree-go/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vkopitsa/behaviortree-go/actions/workflows/test.yml)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/vkopitsa/behaviortree-go)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/vkopitsa/behaviortree-go)
 [![License](http://img.shields.io/badge/license-apache-blue.svg?style=flat-square)](https://raw.githubusercontent.com/vkopitsa/behaviortree-go/master/LICENSE)
 
 
